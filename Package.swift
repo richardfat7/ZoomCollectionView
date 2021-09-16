@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "ZoomCollectionView",
     platforms: [
-        .iOS(.v10_1),
+        .iOS(.v10),
     ],
     products: [
         .library(
