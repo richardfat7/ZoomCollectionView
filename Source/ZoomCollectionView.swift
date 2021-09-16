@@ -32,7 +32,7 @@ public class ZoomCollectionView : UIView, UIScrollViewDelegate, UICollectionView
         // animation does not call scrollViewDidZoom
         scrollView.bouncesZoom = false
         
-        bringSubview(toFront: scrollView)
+        bringSubviewToFront(scrollView)
     }
     
     required public init?(coder aDecoder: NSCoder) {
